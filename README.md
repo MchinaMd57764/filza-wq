@@ -77,5 +77,7 @@ This is a repackage of a public technique, not an original discovery.
 
 * [Filza File Manager](https://tigisoftware.com/) by TIGI Software — the file manager UI and
   all original functionality.
-* The public **`worse_query`** container-query sandbox-escape technique — this repository only
-  packages it into a Filza build for research purposes.
+* The container-query sandbox-escape technique published by **[@forcequitOS](https://x.com/forcequitOS)**
+  and **[@0xjohnny](https://x.com/0xjohnny)** (public `worse_query` project) — this repository
+  only packages their public technique into a Filza build for research purposes. All credit for
+  the technique belongs to them.
