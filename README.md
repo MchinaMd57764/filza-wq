@@ -45,8 +45,10 @@ This is a repackage of a public technique, not an original discovery.
   The tweak reads the group from the signature at runtime, so the name only has to be
   consistent with what you sign with.
 
-* Free Apple IDs cannot provision App Groups. Use a paid Apple Developer account or a
-  signing service/certificate that supports the App Groups capability.
+* App Groups are commonly documented as paid-account-only, but in our environment
+  (Xcode 27.0) a free **Personal Team** profile, valid for 7 days, was issued with the
+  App Groups entitlement and the escape worked on-device. If your setup cannot provision
+  App Groups, use a paid Apple Developer account or a signing service that supports it.
 
 ## Install
 
